@@ -10,16 +10,16 @@
         @apply antialiased;
     }
     html, body {
-        @apply bg-body text-white m-0 p-0;
+        @apply bg-body m-0 p-0;
     }
     hr {
         @apply h-[2px] w-[100%] m-0 p-0;
     }
     a {
-        @apply text-[lightcoral] transition-colors duration-200;
+        @apply text-blue-700 visited:text-purple-700 transition-colors duration-200;
     }
     a:hover {
-        @apply underline text-[#7871AA];
+        @apply underline text-[#bb2244];
     }
 }
 
@@ -38,21 +38,6 @@
     }
     .shortruler {
         @apply my-4 mx-auto w-[75%];
-    }
-    .essaytitle {
-        @apply font-bold text-center text-[1.6rem] mx-8 my-4 leading-8;
-    }
-    .essaycontent {
-        @apply indent-8 text-justify my-4;
-    }
-    .essaysubheader {
-        @apply font-bold text-xl indent-6 mb-2 leading-4;
-    }
-    .essayfigure {
-        @apply items-center text-center my-3 indent-0;
-    }
-    .essaycaption {
-        @apply my-2 text-[0.8rem];
     }
     .picture {
         @apply rounded-md shadow-md shadow-white/20 hover:shadow-2xl hover:shadow-white/50 transition-shadow duration-300;
