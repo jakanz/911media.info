@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import PageWrapper from "./jsx/PageWrapper";
 import Home from "./jsx/Home";
 import Directory from "./jsx/Directory";
@@ -5,7 +7,6 @@ import NotFound from "./jsx/NotFound";
 
 
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function App() {
     return (
         <Router>
